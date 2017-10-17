@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ironmist.aux
+The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ironmist-blx.bib
+Database file #2: references.bib
+Warning--I'm ignoring CLRS's extra "author" field
+--line 3 of file references.bib
+Warning--I'm ignoring CLRS's extra "author" field
+--line 4 of file references.bib
+Warning--I'm ignoring CLRS's extra "author" field
+--line 5 of file references.bib
+Biblatex version: 3.3
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 3 entries,
+            6047 wiz_defined-function locations,
+            1143 strings with 8278 characters,
+and the built_in function-call counts, 12449 in all, are:
+= -- 460
+> -- 1059
+< -- 134
++ -- 832
+- -- 773
+* -- 475
+:= -- 1464
+add.period$ -- 0
+call.type$ -- 3
+change.case$ -- 60
+chr.to.int$ -- 106
+cite$ -- 4
+duplicate$ -- 1000
+empty$ -- 937
+format.name$ -- 99
+if$ -- 2182
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 0
+newline$ -- 70
+num.names$ -- 129
+pop$ -- 687
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 575
+stack$ -- 0
+substring$ -- 604
+swap$ -- 319
+text.length$ -- 96
+text.prefix$ -- 2
+top$ -- 1
+type$ -- 102
+warning$ -- 0
+while$ -- 140
+width$ -- 0
+write$ -- 66
+(There were 3 warnings)

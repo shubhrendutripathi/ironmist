@@ -1,0 +1,55 @@
+\documentclass{report}
+\usepackage[backend=bibtex,style=authoryear,firstinits=true,urldate=long]{biblatex}
+\usepackage{verbatim}
+\usepackage[paperheight=11in,paperwidth=17in,margin=1cm]{geometry}
+\usepackage{titlesec}
+\bibliography{references}
+
+%\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\it}
+\titleformat{\chapter}[hang] {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{1em}{} 
+%\titleformat{\chapter}
+ % {\normalfont\Large\bfseries}
+  %{\thechapter}
+  %{.5em}
+  %{\MakeUppercase}
+  %[\vspace{.5ex}\titlerule]
+%\titleformat{\chapter}[display]
+%{\normalfont%
+%    \huge% %change this size to your needs for the first line
+%    \bfseries}{\chaptertitlename\ \thechapter}{20pt}{%
+%    \Huge %change this size to your needs for the second line
+ %   }
+
+  
+        
+\begin{document}
+\chapter{\centerline{IronMist}}
+In this reference sheet, reference the book~\cite{CLRS} and the website~\cite{Wikipedia}.
+
+\begin{comment}
+c
+c++
+c++ 11
+c#
+java
+coffee
+python
+lua
+ruby
+javascript
+typescript
+php
+css
+html
+haskell
+\end{comment}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%references
+\pagebreak
+%references
+\printbibliography{}
+
+\end{document}
+

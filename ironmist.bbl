@@ -1,0 +1,70 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{CLRS}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cormen}{C.}%
+     {Thomas~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \strng{namehash}{CTH1}
+  \strng{fullhash}{CTH1}
+  \field{labelyear}{2009}
+  \field{sortinit}{C}
+  \field{title}{Introduction to Algorithms}
+  \list{location}{1}{%
+    {MIT}%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{Wikipedia}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Wikipedia}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{labelyear}{2017}
+  \field{sortinit}{W}
+  \verb{url}
+  \verb https://www.wikipedia.org/
+  \endverb
+  \field{day}{15}
+  \field{month}{10}
+  \field{year}{2017}
+  \field{urlday}{15}
+  \field{urlmonth}{10}
+  \field{urlyear}{2017}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
