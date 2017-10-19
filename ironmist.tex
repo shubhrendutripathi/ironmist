@@ -6,8 +6,29 @@
 \usepackage[a3paper,margin=1cm,landscape,headheight=5cm]{geometry}
 \usepackage{lscape}
 \usepackage{titlesec}
-\usepackage{showframe}
+%\usepackage{showframe}
+\usepackage{adjustbox}
+\usepackage{array}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[LE,LO]{IronMist}
+\cfoot{}
+\fancyfoot[CE,CO]{\sffamily\textregistered\textcopyright 2017 Shubhrendu Tripathi}
+\fancyfoot[RE,RO]{str7k1@yahoo.com}
+
+\usepackage{textcomp}
+
 \bibliography{references}
+
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{45}{1em}}}% no optional argument here, please!
+
 
 %\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\it}
 \titleformat{\chapter}[hang] {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{1em}{} 
@@ -30,33 +51,97 @@
 \pagestyle{empty}
 
 %\chapter{\centerline{IronMist}}
-\centerline{\chapfnt\textbf{IronMist}}
+\centerline{\chapfnt\textbf{IronMist}} 
+\centerline{by}
+\centerline{Shubhrendu Tripathi}
+\centerline{\textit{str7k1@yahoo.com}}
+%\centerline{\newline}
+\centerline{2017.Oct.18}
 
-In this reference sheet, reference the book~\cite{CLRS} and the website~\cite{Wikipedia}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%empty space
+\vbox to 50pt {\vfil
+\hbox to 3cm{}%
+\vfil
+}
+
+\centering{
+\begin{tabular}{r||cc||cccccccccccccccccccccccc}
+&
+\rot{Structured} &
+\rot{Imperative} &
+\rot{} &
+\rot{Static} &
+\rot{Dynamic} &
+\rot{Runtime Type Information} &
+\rot{Static + Dynamic} &
+\rot{Strong} &
+\rot{Weak} &
+\rot{Type Safety} &
+\rot{Memory Safety} &
+\rot{Variable} &
+\rot{Optional} &
+\rot{Gradual} &
+\rot{Duck} &
+\rot{Dependent} &
+\rot{Linear} &
+\rot{Intersection} &
+\rot{Union} & 
+\rot{Existential} &
+\rot{Type inference} &
+\rot{Unified} &
+\rot{Manifest} &
+\rot{Inferred} &
+\rot{Nominal} &
+\rot{Structural} 
+
+
+
+\\ \hline
+
+C       	& \textbullet & & & \textbullet & & & \textbullet & & & & & & & & & & & & & & \textbullet & & \textbullet   \\	
+C++		& 	\textbullet    	& 	\textbullet  	& &  \textbullet    \\	
+C\#     	& 	\textbullet 		&   	\textbullet		& &  \textbullet    \\ \hline
+
+
+
+\hline
+
+
+\end{tabular}
+%
+}
+\\
+
+%In this reference sheet, reference the book~\cite{CLRS} and the website~\cite{Wikipedia}.
 
 \begin{comment}
+add categories - typing discipline, paradigm
+add vm - virtual machines - as a column
+
+typing info below
 c
-c++
-c++ 11
-c#
-java
-coffee
-python
-lua
-ruby
-javascript
-typescript
-php
-css
-html
-haskell
+c++ - static, nominative, partially inferred
+c# - static, dynamic, strong, safe, nominative, partially inferred
+objective-c - static, dynamic, weak
+java - static, strong, safe, nominative, manifest
+kotlin - static, inferred
+coffeescript - 
+python - duck, dynamic, strong
+lua - dynamic, strong, duck
+ruby - duck, dynamic, strong
+javascript - dynamic, duck, weak
+typescript - gradual, dynamic, duck
+php - dynamic, weak, gradual
+css - 
+html - 
+haskell - static, strong, inferred
+vb.net - static, both strong and weak, both safe and unsafe, nominative
 \end{comment}
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%references
 \pagebreak
 %references
+\nocite{*}
 \printbibliography{}
 
 \end{document}

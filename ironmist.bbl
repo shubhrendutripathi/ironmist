@@ -38,6 +38,50 @@
   \field{year}{2009}
 \endentry
 
+\entry{EncyMath}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Springer Verlag GmbH, European Mathematical Society}}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{sortinit}{S}
+  \field{howpublished}{Website}
+  \field{note}{URL: \url{https://www.encyclopediaofmath.org/}. Accessed on
+  2017-10-11}
+  \field{title}{{Encyclopedia of Mathematics}}
+\endentry
+
+\entry{tratt__dyamically_typed_languages}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tratt}{T.}%
+     {Laurence}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Zelkowitz}{Z.}%
+     {Marvin~V.}{M.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TL1}
+  \strng{fullhash}{TL1}
+  \field{labelyear}{2009}
+  \field{sortinit}{T}
+  \field{pages}{149\bibrangedash 184}
+  \field{title}{Dynamically Typed Languages}
+  \field{volume}{77}
+  \field{journaltitle}{Advances in Computers}
+  \field{month}{07}
+  \field{year}{2009}
+\endentry
+
 \entry{Wikipedia}{online}{}
   \name{author}{1}{}{%
     {{}%
